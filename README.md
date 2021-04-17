@@ -1,5 +1,5 @@
 # TodoApp
 Made using Flask
 ---
-permalink: template/index.html
+permalink: templates/index.html
 ---
