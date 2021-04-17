@@ -31,7 +31,7 @@ class Todo(db.Model):
     def __repr__(self) -> str:
         return f"{self.sno} - {self.title}"
 
-@app.route('/', methods = ['GET', 'POST'])
+@app.route('/', methods = ['POST'])
 def hello_world():
     if request.method == "POST":
         title_of_list = request.form['title']
